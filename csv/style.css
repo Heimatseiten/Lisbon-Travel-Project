@@ -1,0 +1,185 @@
+:root {
+  --primary-color: #468faf;
+  --secondary-color: #de8897;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+img {
+  width: 400px;
+  border-radius: 10px;
+}
+.herocenter {
+  display: flex;
+  justify-content: center;
+}
+img.logofull {
+  width: 800px;
+}
+img.sublogo {
+  width: 800px;
+}
+img.signature {
+  width: 400px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.content-container {
+  padding: 160px 20px;
+}
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+
+  font-family: var(--default-font-family);
+}
+.content p {
+  font-size: 14px;
+}
+.content {
+  margin: 50px;
+}
+.logo {
+  max-width: 50px;
+}
+.logo1 {
+  max-width: 25px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul,
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+nav li,
+footer li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a,
+footer .email-link {
+  text-decoration: none;
+  color: #468faf;
+  font-size: 24px;
+  text-align: center;
+}
+footer {
+  margin: 60px 0;
+}
+footer .email-link:hover,
+nav a:hover,
+nav li.active a {
+  color: #de8897;
+  transition: all 100ms ease-in-out;
+}
+footer .socialmedia a {
+  margin: 0 20px;
+  color: #de8897;
+  background: #468faf;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .socialmedia a:hover {
+  color: #468faf;
+  background: #de8897;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  img.logofull {
+    width: 400px;
+  }
+  img.sublogo {
+    width: 400px;
+  }
+  img.signature {
+    width: 200px;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+  nav a {
+    font-size: 14px;
+  }
+}
